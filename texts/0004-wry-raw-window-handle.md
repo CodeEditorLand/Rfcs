@@ -1,9 +1,9 @@
 -   Feature Name: wry-raw-window-handle
 -   Start Date: 16-10-2023
--   RFC PR: [tauri-apps/rfcs#12](https://github.com/tauri-apps/rfcs/pull/12)
+-   RFC PR: [`tauri-apps/rfcs#12`](https://github.com/tauri-apps/rfcs/pull/12)
 -   Implementation PR: https://github.com/tauri-apps/wry/pull/1041
 -   Tracking Issue:
-    [tauri-apps/wry#677](https://github.com/tauri-apps/wry/issues/677)
+    [`tauri-apps/wry#677`](https://github.com/tauri-apps/wry/issues/677)
 
 # Summary
 
@@ -13,10 +13,10 @@ or gtk-window-handle where applicable.
 # Motivation
 
 This has been requested in
-[tauri-apps/wry#677](https://github.com/tauri-apps/wry/issues/677) a long time
+[`tauri-apps/wry#677`](https://github.com/tauri-apps/wry/issues/677) a long time
 ago and at work at CrabNebula, we have been contracted to research and develop
 an integration of wry and wgpu/bevy. We had a successful results and it aligned
-with [tauri-apps/wry#677](https://github.com/tauri-apps/wry/issues/677) so we
+with [`tauri-apps/wry#677`](https://github.com/tauri-apps/wry/issues/677) so we
 did an initial implemention of this RFC for Windows which can be found here
 https://github.com/crabnebula-dev/wry/commits/feat/embedded-webview and we think
 it is a good oprtunity to upstream this work.
@@ -32,7 +32,7 @@ This group could leverage the `raw-window-handle` crate; this includes macOS,
 Windows and Linux (x11) platforms.
 
 -   Using winit, tao, egui or any other windowing library that implements
-    [`raw_window_handle::HasWindowHandle`](https://docs.rs/raw-window-handle/latest/raw_window_handle/trait.HasWindowHandle.html)
+    [`raw_window_handle::HasWindowHandle``](https://docs.rs/raw-window-handle/latest/raw_window_handle/trait.HasWindowHandle.html)
     trait (or previous versions of `raw-window-handle` crate):
     ```rs
     let window = Window::new(&evl); // Window implements HasWindowHandle

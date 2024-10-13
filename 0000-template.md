@@ -1,8 +1,8 @@
 -   Feature Name: (fill me in with a unique ident, `my_awesome_feature`)
 -   Start Date: (fill me in with today's date, YYYY-MM-DD)
--   RFC PR: [tauri-apps/rfcs#0000](https://github.com/tauri-apps/rfcs/pull/0000)
+-   RFC PR: [`tauri-apps/rfcs#0000`](https://github.com/tauri-apps/rfcs/pull/0000)
 -   Tracking Issue:
-    [tauri-apps/tauri#0000](https://github.com/tauri-apps/tauri/issues/0000)
+    [`tauri-apps/tauri#0000`](https://github.com/tauri-apps/tauri/issues/0000)
 
 # Summary
 
