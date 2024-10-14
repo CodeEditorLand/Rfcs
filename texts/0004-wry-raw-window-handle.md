@@ -32,7 +32,7 @@ This group could leverage the `raw-window-handle` crate; this includes macOS,
 Windows and Linux (x11) platforms.
 
 -   Using winit, tao, egui or any other windowing library that implements
-    [`raw_window_handle::HasWindowHandle``](https://docs.rs/raw-window-handle/latest/raw_window_handle/trait.HasWindowHandle.html)
+    [`raw_window_handle::HasWindowHandle`](https://docs.rs/raw-window-handle/latest/raw_window_handle/trait.HasWindowHandle.html)
     trait (or previous versions of `raw-window-handle` crate):
     ```rs
     let window = Window::new(&evl); // Window implements HasWindowHandle
