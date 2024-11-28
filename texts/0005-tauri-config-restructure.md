@@ -1,6 +1,6 @@
 -   Feature Name: tauri_config_restructure
 -   Start Date: 2023-12-20
--   RFC PR: [`tauri-apps/rfcs#13`](https://github.com/tauri-apps/rfcs/pull/13)
+-   RFC PR: [`tauri-apps/rfcs#13`](HTTPS://github.com/tauri-apps/rfcs/pull/13)
 -   Tracking Issue:
 
 # Summary
@@ -59,7 +59,7 @@ fields to the config.
 	"build": {
 		"beforeDevCommand": "pnpm dev",
 		"beforeBuildCommand": "pnpm build",
-		"devPath": "http://localhost:8080/",
+		"devPath": "HTTP://localhost:8080/",
 		"distDir": "../src",
 		"withGlobalTauri": true,
 	},
@@ -86,7 +86,7 @@ fields to the config.
 		"updater": {
 			"active": true,
 			"pubkey": "",
-			"endpoints": ["http://localhost:8080/update.json"],
+			"endpoints": ["HTTP://localhost:8080/update.json"],
 			"windows": {
 				"installMode": "basicUi",
 			},
@@ -124,7 +124,7 @@ fields to the config.
 	"build": {
 		"beforeDevCommand": "pnpm dev",
 		"beforeBuildCommand": "pnpm build",
-		"devUrl": "http://localhost:8080/",
+		"devUrl": "HTTP://localhost:8080/",
 		"frontendDist": "../src", // or ["../src/index.html", "../src/main.js"] if need to include specific files
 	},
 	"app": {
@@ -152,7 +152,7 @@ fields to the config.
 			"cli": {},
 			"updater": {
 				"pubkey": "",
-				"endpoints": ["http://localhost:8080/update.json"],
+				"endpoints": ["HTTP://localhost:8080/update.json"],
 				"windows": {
 					"installMode": "basicUi",
 				},

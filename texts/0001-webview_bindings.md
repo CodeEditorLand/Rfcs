@@ -24,9 +24,9 @@ it is difficult to know where to contribute, let alone know when PRs will be
 merged.
 
 Not only are there outstanding features (like
-[`transparent and borderless windows`](https://github.com/Boscop/web-view/commit/55f619190e6aa8c54fde8cf72d71a5126238a5e3),
-[`additional menu items`](https://github.com/Boscop/web-view/pull/125) etc.), but
-also [`severe memory leaks`](https://github.com/Boscop/web-view/issues/79).
+[`transparent and borderless windows`](HTTPS://github.com/Boscop/web-view/commit/55f619190e6aa8c54fde8cf72d71a5126238a5e3),
+[`additional menu items`](HTTPS://github.com/Boscop/web-view/pull/125) etc.), but
+also [`severe memory leaks`](HTTPS://github.com/Boscop/web-view/issues/79).
 
 Since we plan to release our Beta at some point in the next 4 months, we
 absolutely cannot carry this kind of architectural debt with us and need to come
@@ -97,7 +97,7 @@ anticipate enhancing our own documentation in any case.
 
 There may be API changes, but it will fall in the scope of ALPHA. For
 information regarding the API changes, refer to the webview repository's
-[`readme`](https://github.com/zserge/webview).
+[`readme`](HTTPS://github.com/zserge/webview).
 
 ### User Impact
 
